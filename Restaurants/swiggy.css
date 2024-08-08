@@ -1,0 +1,108 @@
+/* Resetting margins and setting background color */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header_section img {
+    width: 120px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.header_section i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header_section span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.middle_section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.middle_section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.food_categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food_categories img {
+    width: 130px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.restaurants_section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.restaurants_section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 9%;
+}
+
+.restaurant_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.restaurant {
+    text-align: center;
+}
+
+.restaurant img {
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.title h3 {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.title i {
+    margin-right: 5px;
+}
+
+.title span {
+    font-size: 14px;
+    color: #777;
+}
